@@ -1,6 +1,6 @@
 ﻿namespace MarketplaceManagement
 {
-    partial class formReportManagement
+    partial class formSearchAndAdd
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
+            buttonAddProduct = new Button();
+            buttonSearchProduct = new Button();
             returnButtonControl1 = new ReturnButtonControl();
             SuspendLayout();
+            // 
+            // buttonAddProduct
+            // 
+            buttonAddProduct.Location = new Point(206, 87);
+            buttonAddProduct.Name = "buttonAddProduct";
+            buttonAddProduct.Size = new Size(327, 85);
+            buttonAddProduct.TabIndex = 0;
+            buttonAddProduct.Text = "Ürün Ekle";
+            buttonAddProduct.UseVisualStyleBackColor = true;
+            buttonAddProduct.Click += buttonAddProduct_Click;
+            // 
+            // buttonSearchProduct
+            // 
+            buttonSearchProduct.Location = new Point(206, 200);
+            buttonSearchProduct.Name = "buttonSearchProduct";
+            buttonSearchProduct.Size = new Size(327, 85);
+            buttonSearchProduct.TabIndex = 0;
+            buttonSearchProduct.Text = "Ürün Ara";
+            buttonSearchProduct.UseVisualStyleBackColor = true;
             // 
             // returnButtonControl1
             // 
             returnButtonControl1.Location = new Point(12, 12);
             returnButtonControl1.Name = "returnButtonControl1";
             returnButtonControl1.Size = new Size(188, 188);
-            returnButtonControl1.TabIndex = 0;
+            returnButtonControl1.TabIndex = 1;
             returnButtonControl1.Load += returnButtonControl1_Load;
             // 
-            // formReportManagement
+            // formSearchAndAdd
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(returnButtonControl1);
-            Name = "formReportManagement";
+            Controls.Add(buttonSearchProduct);
+            Controls.Add(buttonAddProduct);
+            Name = "formSearchAndAdd";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Raporlama";
+            Text = "formSearchAndAdd";
             ResumeLayout(false);
         }
 
         #endregion
 
+        private Button buttonAddProduct;
+        private Button buttonSearchProduct;
         private ReturnButtonControl returnButtonControl1;
     }
 }

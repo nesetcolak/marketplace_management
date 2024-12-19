@@ -33,7 +33,6 @@
             btnSaleMngmnt = new Button();
             btnStockMngmnt = new Button();
             btnReportMngmnt = new Button();
-            button1 = new Button();
             SuspendLayout();
             // 
             // btnProductMngmnt
@@ -87,22 +86,12 @@
             btnReportMngmnt.UseVisualStyleBackColor = true;
             btnReportMngmnt.Click += btnReportMngmnt_Click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(612, 166);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(btnReportMngmnt);
             Controls.Add(btnStockMngmnt);
@@ -123,6 +112,5 @@
         private Button btnSaleMngmnt;
         private Button btnStockMngmnt;
         private Button btnReportMngmnt;
-        private Button button1;
     }
 }

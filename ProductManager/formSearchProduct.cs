@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace MarketplaceManagement
 {
-    public partial class formProductManagement : Form
+    public partial class formSearchProduct : Form
     {
-        public formProductManagement()
+        public formSearchProduct()
         {
             InitializeComponent();
-            
-        }
-
-
-        private void formProductManagement_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

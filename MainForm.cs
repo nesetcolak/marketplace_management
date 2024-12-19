@@ -4,22 +4,24 @@ namespace MarketplaceManagement
     {
         public static MainForm Instance;
 
+        
+
         public MainForm()
         {
             InitializeComponent();
             Instance = this;
-            //nabýyon saidom
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnProductMngmnt_Click(object sender, EventArgs e)
         {
-            formProductManagement formProductManagement = new formProductManagement();
-            formProductManagement.Show();
+            formSearchAndAdd formSearchAndAdd = new formSearchAndAdd();
+            formSearchAndAdd.Show();
             this.Hide();
 
         }
