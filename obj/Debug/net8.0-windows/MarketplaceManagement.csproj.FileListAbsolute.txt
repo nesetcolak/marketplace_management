@@ -3,7 +3,6 @@ C:\VisualStudioProjects\MarketplaceManagement\bin\Debug\net8.0-windows\Marketpla
 C:\VisualStudioProjects\MarketplaceManagement\bin\Debug\net8.0-windows\MarketplaceManagement.runtimeconfig.json
 C:\VisualStudioProjects\MarketplaceManagement\bin\Debug\net8.0-windows\MarketplaceManagement.dll
 C:\VisualStudioProjects\MarketplaceManagement\bin\Debug\net8.0-windows\MarketplaceManagement.pdb
-C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formProductManagement.resources
 C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formSaleManagement.resources
 C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formStockManagement.resources
 C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.csproj.GenerateResource.cache
@@ -20,3 +19,6 @@ C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\Marketpla
 C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formReportManagement.resources
 C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.ReturnButtonControl.resources
 C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.sourcelink.json
+C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formAddProduct.resources
+C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formSearchAndAdd.resources
+C:\VisualStudioProjects\MarketplaceManagement\obj\Debug\net8.0-windows\MarketplaceManagement.formSearchProduct.resources

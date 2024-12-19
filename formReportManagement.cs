@@ -16,5 +16,10 @@ namespace MarketplaceManagement
         {
             InitializeComponent();
         }
+
+        private void returnButtonControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
